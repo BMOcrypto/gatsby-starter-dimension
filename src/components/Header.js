@@ -4,11 +4,11 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-globe"></span>
+      <span><a href="https://ibb.co/XyXLKN9"><img src="https://i.ibb.co/cbJ3ZMP/Flavorman-Logo-Just-Droplet-white-01.png" alt="Flavorman-Logo-Just-Droplet-white-01" border="0"></a></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Flavorman</h1>
         <p>
           A fully responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
